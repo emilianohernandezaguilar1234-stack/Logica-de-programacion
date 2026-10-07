@@ -68,6 +68,8 @@ public class arreglos {
         
         //quienes faltaron 
 
+        System.out.println("Total de asistentes: " + totalAsistentes);
+        System.out.println("Total de faltantes: " + totalFaltantes);
         System.out.println("Alumnos que faltaron:");
 
         for (int i = 0; i < asistencia.length; i++) {
