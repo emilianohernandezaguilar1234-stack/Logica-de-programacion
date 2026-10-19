@@ -77,7 +77,7 @@ public class calculosnum {
 
             valoractual /= divisor;
             System.out.println("\nDividor aplicado:\n" + divisor);
-            System.out.println("Valor actual despues de etapa 5:\n" + valoractual);
+            System.out.println("Valor actual despues de etapa 5: \n" + valoractual);
 
 
         //Resultado Final     
@@ -92,7 +92,7 @@ public class calculosnum {
             System.out.println("Resultado Final:" + valent);
         } else {
             System.out.println("Mes de nacimiento:" + mes);
-            System.out.println("Resultado final: %.4f%n" + valoractual);
+            System.out.printf("Resultado final: %.4f%n",valoractual);
         }
 
         sc.close();
